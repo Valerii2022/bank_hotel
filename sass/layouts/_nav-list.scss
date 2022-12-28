@@ -1,0 +1,36 @@
+.nav-list {
+   @include desktop-1440 {
+      display: flex;
+      gap: 70px;
+   }
+
+   &__item:not(:last-child) {
+      @media screen and (max-width: 1439px) {
+         margin-bottom: 40px;
+      }
+   }
+
+   &__link {
+      transition: color 250ms linear;
+      color: getColor("white-color");
+      text-transform: uppercase;
+
+      @media screen and (max-width: 1439px) {
+         font-size: 30px;
+         line-height: 1;
+      }
+
+      @include desktop-1440 {
+         font-size: 14px;
+         line-height: 1.43;
+      }
+   }
+
+   &__link:hover {
+      color: getColor("hover");
+   }
+
+   &__link:focus {
+      color: getColor("focus");
+   }
+}

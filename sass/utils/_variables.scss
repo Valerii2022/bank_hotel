@@ -1,12 +1,14 @@
 $colors: (
-   'primary': #313F38,
-   'secondary': #FCD043,
-   'white-color': #FFFCF6,
-   'error': #B03E3E,
-   'attention': #DC9B39,
-   'success': #2A5B46,
-   'link': #1B3B36,
-   'link-hover': #1B3B36
+   "primary": #313f38,
+   "secondary": #fcd043,
+   "hover": #fcc000,
+   "focus": #fcc412,
+   "white-color": #fffcf6,
+   "error": #b03e3e,
+   "attention": #dc9b39,
+   "success": #2a5b46,
+   "link": #1b3b36,
+   "link-hover": #1b3b36,
 );
 
 @function getColor($key) {

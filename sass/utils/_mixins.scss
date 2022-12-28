@@ -12,7 +12,7 @@
 }
 
 @mixin mobile-375 {
-   @media screen and (max-width: 374px) {
+   @media screen and (min-width: 375px) {
       @content;
    }
 }
@@ -35,7 +35,7 @@
    }
 }
 
-@mixin desktop-1920{
+@mixin desktop-1920 {
    @media screen and (min-width: 1920px) {
       @content;
    }

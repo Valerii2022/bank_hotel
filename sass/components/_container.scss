@@ -1,18 +1,38 @@
 .container {
    @extend %margin-auto;
 
-   @media screen and (max-width: 374px) {}
-
-   @include mobile-375 {
+   @media screen and (max-width: 374px) {
       padding-left: 10px;
       padding-right: 10px;
    }
 
-   @include tablet-768{}
+   @include mobile-375 {
+      padding-left: 10px;
+      padding-right: 10px;
+      width: 375px;
+   }
 
-   @include tablet-1024 {}
+   @include tablet-768 {
+      width: 768px;
+      padding-left: 10px;
+      padding-right: 10px;
+   }
 
-   @include desktop-1440 {}
-   
-   @include desktop-1920 {}
+   @include tablet-1024 {
+      width: 1024px;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   @include desktop-1440 {
+      width: 1440px;
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+
+   @include desktop-1920 {
+      width: 1920px;
+      padding-left: 30px;
+      padding-right: 30px;
+   }
 }
