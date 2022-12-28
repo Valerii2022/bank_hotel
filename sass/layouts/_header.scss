@@ -1,0 +1,13 @@
+.header{
+    background-color: getColor('primary');
+
+    &__logo{}
+
+    &__burger{
+        color: getColor('white-color');
+    }
+
+    &__icon{
+        fill: currentColor;
+    }
+}

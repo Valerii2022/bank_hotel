@@ -341,4 +341,14 @@ body.no-scroll {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.header {
+  background-color: #313F38;
+}
+.header__burger {
+  color: #FFFCF6;
+}
+.header__icon {
+  fill: currentColor;
 }/*# sourceMappingURL=main.css.map */

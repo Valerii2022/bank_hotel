@@ -14,7 +14,7 @@
 <path fill="none" stroke="#fcd043" style="stroke: var(--color3, #fcd043)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7111" d="M19.657 15.085s-1.067 0.305-1.981 1.22c-0.915 0.914-1.676 2.438-1.676 2.438s-0.762-1.524-1.676-2.438c-0.915-0.915-1.981-1.22-1.981-1.22"></path>
 </symbol>
 <symbol id="icon-burger" viewBox="0 0 118 32">
-<path fill="#fffcf6" style="fill: var(--color2, #fffcf6)" d="M0.067 0h118.333v3.2h-118.333zM0.067 28.8h118.333v3.2h-118.333z"></path>
+<path d="M0.067 0h118.333v3.2h-118.333zM0.067 28.8h118.333v3.2h-118.333z"></path>
 </symbol>
 <symbol id="icon-close" viewBox="0 0 32 32">
 <path fill="#fffcf6" style="fill: var(--color2, #fffcf6)" d="M0.78 0.004l31.211 31.21-0.781 0.78-31.21-31.21z"></path>
