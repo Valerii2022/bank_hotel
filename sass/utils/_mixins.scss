@@ -11,20 +11,32 @@
    align-items: $ai;
 }
 
-@mixin mobile {
-   @media screen and (max-width: 767px) {
+@mixin mobile-375 {
+   @media screen and (max-width: 374px) {
       @content;
    }
 }
 
-@mixin tablet {
+@mixin tablet-768 {
    @media screen and (min-width: 768px) {
       @content;
    }
 }
 
-@mixin desktop {
-   @media screen and (min-width: 1200px) {
+@mixin tablet-1024 {
+   @media screen and (min-width: 1024px) {
+      @content;
+   }
+}
+
+@mixin desktop-1440 {
+   @media screen and (min-width: 1440px) {
+      @content;
+   }
+}
+
+@mixin desktop-1920{
+   @media screen and (min-width: 1920px) {
       @content;
    }
 }

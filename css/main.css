@@ -320,6 +320,12 @@ body.no-scroll {
   overflow: hidden;
 }
 
+@media screen and (max-width: 374px) {
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
 .hidden {
   position: absolute;
   width: 1px;
