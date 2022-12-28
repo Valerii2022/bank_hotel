@@ -1,19 +1,14 @@
-:root {
-   --primary-text-color: #fcfcfc;
-   --secondary-text-color: #131313;
-   --primary-background-color: #84a178;
-   --secondary-background-color: #ffffff;
-   --bc-list-1: #aec6a5;
-   --bc-list-2: #efd478;
-   --bc-list-3: #d6936d;
-   --btn-color: #f8d24e;
-   --btn-hover-color: #0a8817;
-   --btn-disabled-color: #ababab;
-   --white-color: #ffffff;
-   --border-color: #e1e1e1;
-   --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+$colors: (
+   'primary': #313F38,
+   'secondary': #FCD043,
+   'white-color': #FFFCF6,
+   'error': #B03E3E,
+   'attention': #DC9B39,
+   'success': #2A5B46,
+   'link': #1B3B36,
+   'link-hover': #1B3B36
+);
 
-   --roboto: "Roboto", sans-serif;
-   --inter: "Inter", sans-serif;
-   --seymoure: "Seymour One", sans-serif;
+@function getColor($key) {
+   @return map-get($colors, $key);
 }

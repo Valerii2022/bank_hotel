@@ -1,3 +1,39 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Miracle";
+  src: url("../fonts/FontsFree-Net-Miracle.eot");
+  src: local("☺"), url("../fonts/FontsFree-Net-Miracle.woff") format("woff"), url("../fonts/FontsFree-Net-Miracle.ttf") format("truetype"), url("../fonts/FontsFree-Net-Miracle.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueLTStd-Bd.eot");
+  src: local("☺"), url("../fonts/HelveticaNeueLTStd-Bd.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Bd.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Bd.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueLTStd-It.eot");
+  src: local("☺"), url("../fonts/HelveticaNeueLTStd-It.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-It.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-It.svg") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueLTStd-Md.eot");
+  src: local("☺"), url("../fonts/HelveticaNeueLTStd-Md.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Md.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Md.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueLTStd-Roman.eot");
+  src: local("☺"), url("../fonts/HelveticaNeueLTStd-Roman.woff") format("woff"), url("../fonts/HelveticaNeueLTStd-Roman.ttf") format("truetype"), url("../fonts/HelveticaNeueLTStd-Roman.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /*! modern-normalize v0.6.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -272,32 +308,13 @@ ul {
   list-style: none;
 }
 
-:root {
-  --primary-text-color: #fcfcfc;
-  --secondary-text-color: #131313;
-  --primary-background-color: #84a178;
-  --secondary-background-color: #ffffff;
-  --bc-list-1: #aec6a5;
-  --bc-list-2: #efd478;
-  --bc-list-3: #d6936d;
-  --btn-color: #f8d24e;
-  --btn-hover-color: #0a8817;
-  --btn-disabled-color: #ababab;
-  --white-color: #ffffff;
-  --border-color: #e1e1e1;
-  --transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  --roboto: "Roboto", sans-serif;
-  --inter: "Inter", sans-serif;
-  --seymoure: "Seymour One", sans-serif;
-}
-
 .container {
   margin-left: auto;
   margin-right: auto;
 }
 
 body {
-  background-color: teal;
+  font-family: "HelveticaNeue";
 }
 body.no-scroll {
   overflow: hidden;
