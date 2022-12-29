@@ -445,6 +445,7 @@ body.no-scroll {
   font-size: 16px;
   line-height: 1.25;
   text-transform: uppercase;
+  outline: none;
   color: #fffcf6;
 }
 @media screen and (min-width: 1920px) {
@@ -1006,8 +1007,18 @@ body.no-scroll {
 .hero__btn-book:hover {
   color: #fcc000;
 }
+@media screen and (min-width: 1024px) {
+  .hero__btn-book:hover {
+    background-color: #fcc000;
+  }
+}
 .hero__btn-book:focus {
   color: #fcc412;
+}
+@media screen and (min-width: 1024px) {
+  .hero__btn-book:focus {
+    background-color: #fcc412;
+  }
 }
 .hero__btn-book span {
   position: absolute;

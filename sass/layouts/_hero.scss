@@ -449,10 +449,18 @@
 
    &__btn-book:hover {
       color: getColor("hover");
+
+      @include tablet-1024 {
+         background-color: getColor("hover");
+      }
    }
 
    &__btn-book:focus {
       color: getColor("focus");
+
+      @include tablet-1024 {
+         background-color: getColor("focus");
+      }
    }
 
    &__btn-book span {
