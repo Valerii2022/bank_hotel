@@ -1,5 +1,7 @@
 body {
    font-family: 'HelveticaNeue';
+   background-color: getColor("primary");
+   color: getColor("white-color");
    
    &.no-scroll {
       overflow: hidden;

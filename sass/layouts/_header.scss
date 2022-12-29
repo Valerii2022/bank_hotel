@@ -1,5 +1,4 @@
 .header {
-   background-color: getColor("primary");
    color: getColor("white-color");
 
    &__inner {
@@ -31,6 +30,7 @@
       line-height: 1.19;
       text-transform: capitalize;
       cursor: pointer;
+      outline: none;
 
       color: getColor("white-color");
 
@@ -41,10 +41,11 @@
    }
 
    &__logo:hover {
-      color: getColor("secondary");
+      color: getColor("hover");
    }
 
-   &__nav {
+   &__logo:focus {
+      color: getColor("focus");
    }
 
    &__phone {
@@ -81,6 +82,7 @@
       transition: color 250ms linear;
       color: getColor("white-color");
       cursor: pointer;
+      outline: none;
 
       @include desktop-1440 {
          display: none;

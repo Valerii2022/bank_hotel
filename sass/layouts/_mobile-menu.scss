@@ -29,6 +29,7 @@
       line-height: 1.19;
       text-transform: capitalize;
       cursor: pointer;
+      outline: none;
 
       color: getColor("white-color");
    }
@@ -51,6 +52,7 @@
       transition: color 250ms linear;
       color: getColor("white-color");
       cursor: pointer;
+      outline: none;
    }
 
    &__btn:hover {
@@ -58,7 +60,7 @@
    }
 
    &__btn:focus {
-      color: getColor("focus:focus");
+      color: getColor("focus");
    }
 
    &__close {
@@ -78,6 +80,7 @@
       text-transform: uppercase;
       border-bottom: 1px solid rgba(255, 252, 246, 0.2);
       padding-bottom: 3px;
+      outline: none;
 
       color: getColor("white-color");
 
@@ -111,6 +114,7 @@
 
    &__address a {
       color: getColor("white-color");
+      outline: none;
    }
 
    &__address a:hover {
@@ -128,9 +132,6 @@
       justify-content: center;
    }
 
-   &__network-item {
-   }
-
    &__network-link {
       transition: color 250ms linear, border-color 250ms linear;
       font-weight: 500;
@@ -139,6 +140,7 @@
       text-transform: uppercase;
       border-bottom: 1px solid rgba(255, 252, 246, 0.2);
       padding-bottom: 3px;
+      outline: none;
 
       color: getColor("white-color");
    }

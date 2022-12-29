@@ -1,0 +1,242 @@
+.hero{
+    padding-bottom: 40px;
+
+    &__top{
+        margin-bottom: 40px;
+
+        @include tablet-1024{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    &__title-wrap{}
+
+    &__title {
+        margin-bottom: 24px;
+        font-family: 'Miracle';
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 1.21;
+        display: flex;
+        align-items: center;
+        text-align: center;
+
+        @media screen and (max-width: 374px){
+            font-size: 66px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width:1023px){
+            display: flex;
+            justify-content: center;
+        }
+
+        @include tablet-1024{
+            font-size: 120px;
+            line-height: 1.22;
+        }
+    }
+
+    &__title span{
+        color: getColor("secondary");
+    }
+    
+    &__list {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        margin-right: auto;
+        margin-left: auto;
+
+        @media screen and (min-width: 355px) and (max-width: 374px){
+            max-width: 335px;
+        }
+
+        @media screen and (min-width: 375px) and (max-width:1023px){
+            max-width: 325px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width:1023px){
+            max-width: 355px;
+        }
+
+        @media screen and (max-width:1023px){
+            margin-bottom: 48px;
+        }
+    }
+
+    &__list::after{
+        content: '';
+        position: absolute;
+        bottom: -24px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 173px;
+        height: 1px;
+        opacity: 0.12;
+        background-color: getColor("white-color");
+
+        @include tablet-1024{
+            display: none;
+        }
+    }
+
+    &__item:not(:last-child)::after{
+        content: '//';
+        font-size: 12px;
+        line-height: 1.17;
+        
+        color: getColor("secondary");
+
+        @media screen and (max-width: 354px){
+            display: none;
+        }
+
+        @media screen and (max-width: 374px) {
+            padding-left: 5px;
+        }
+
+        @include mobile-375{
+            padding-left: 3px;
+        }
+
+        @media screen and (min-width: 768px) and (max-width:1023px) {
+            padding-left: 8px;
+        }
+
+        @include tablet-1024 {
+            font-size: 14px;
+            line-height: 1.21;
+        }
+    }
+    
+    &__link {
+        transition: color 250ms linear;
+        font-size: 12px;
+        line-height: 1.17;
+        text-align: center;
+        text-transform: uppercase;
+        outline: none;
+                
+        color: getColor("secondary");
+
+        @media screen and (max-width: 354px){
+            font-size: 10px;
+        }
+
+        @include tablet-1024{
+            font-size: 14px;
+            line-height: 1.21;
+        }
+    }
+
+    &__link:hover{
+        color: getColor("hover");
+    }
+
+    &__link:hover {
+        color: getColor("hover");
+    }
+
+    &__descr-wrap{
+        @include tablet-1024{
+            display: flex;
+            align-items: start;
+        }
+    }
+
+    &__btn-top{
+        @media screen and (max-width: 1023px){
+            display: none;
+        }
+    }
+
+    &__descr {
+        max-width: 291px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 14px;
+        line-height: 1.64;
+        text-align: center;
+        
+        color: getColor("white-color");
+        
+        opacity: 0.8;
+    }
+    
+    &__img-wrap {
+        position: relative;
+        margin-bottom: 50px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @include mobile-375 {
+           width: 355px;
+           height: 425px;
+        }
+
+        @include tablet-1024{
+            width: 984px;
+            height: 487px;
+        }
+    }
+    
+    &__img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    &__btn-book{
+        transition: color 250ms linear;
+        color: getColor("secondary");
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &__btn-book:hover{
+        color: getColor("hover");
+    }
+
+    &__btn-book:focus {
+        color: getColor("focus");
+    }
+
+    &__btn-book span{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        display: block;
+        width: 69px;
+        transform: translate(-50%, -50%);
+        font-style: italic;
+        font-size: 14px;
+        line-height: 1.21;
+        
+        text-align: center;
+        color: getColor("link");
+    }
+
+    &__btn-icon{
+        fill: currentColor;
+    }
+    
+    &__img-descr {
+        font-size: 12px;
+        line-height: 1.17;
+        text-transform: uppercase;
+        
+        color: getColor("white-color");
+
+        @media screen and (max-width:767px){
+            max-width: 117px;
+        }
+
+        @include tablet-768{
+            text-align: center;
+        }
+    }
+}
+
