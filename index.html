@@ -30,11 +30,15 @@
                   </li>
                   <li class="nav-list__item"><a class="nav-list__link" href="#about">About</a></li>
                   <li class="nav-list__item"><a class="nav-list__link" href="#rooms">Rooms</a></li>
-                  <li class="nav-list__item"><a class="nav-list__link" href="#restaurant">Restaurant</a></li>
+                  <li class="nav-list__item">
+                    <a class="nav-list__link" href="#restaurant">Restaurant</a>
+                  </li>
                   <li class="nav-list__item">
                     <a class="nav-list__link" href="#conference">Conference hall</a>
                   </li>
-                  <li class="nav-list__item"><a class="nav-list__link" href="#contacts">Contacts</a></li>
+                  <li class="nav-list__item">
+                    <a class="nav-list__link" href="#contacts">Contacts</a>
+                  </li>
                 </ul>
               </nav>
               <a class="mobile-menu__phone" href="tel:+380322975020">+38 032 297 50 20</a>
@@ -86,11 +90,15 @@
                 </li>
                 <li class="nav-list__item"><a class="nav-list__link" href="#about">About</a></li>
                 <li class="nav-list__item"><a class="nav-list__link" href="#rooms">Rooms</a></li>
-                <li class="nav-list__item"><a class="nav-list__link" href="#restaurant">Restaurant</a></li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#restaurant">Restaurant</a>
+                </li>
                 <li class="nav-list__item">
                   <a class="nav-list__link" href="#conference">Conference hall</a>
                 </li>
-                <li class="nav-list__item"><a class="nav-list__link" href="#contacts">Contacts</a></li>
+                <li class="nav-list__item">
+                  <a class="nav-list__link" href="#contacts">Contacts</a>
+                </li>
               </ul>
             </nav>
             <a class="header__phone" href="tel:+380322975020">+38 032 297 50 20</a>
@@ -114,40 +122,84 @@
             <ul class="hero__list">
               <li class="hero__item"><a class="hero__link" href="#rooms">rooms</a></li>
               <li class="hero__item"><a class="hero__link" href="#restaurant">restaurant</a></li>
-              <li class="hero__item"><a class="hero__link" href="#congress-hall">congress hall</a></li>
+              <li class="hero__item">
+                <a class="hero__link" href="#congress-hall">congress hall</a>
+              </li>
               <li class="hero__item"><a class="hero__link" href="#wine-bar">wine bar</a></li>
             </ul>
           </div>
           <div class="hero__descr-wrap">
-            <button class="hero__btn-top" type="button">
-              <svg class="hero__btn-icon" width="45" height="45">
-                <use href="./images/icons.svg#icon-arrow-short-border"></use>
-              </svg>
-            </button>
-            <p class="hero__descr">The luxurious hotel in the most beautiful European city with an exclusive restaurant, conference-hall, and art-bar.</p>
+            <div class="hero__btn-top-wrapper">
+              <div class="hero__since-wrap">
+                <svg class="hero__since-icon" width="35" height="35">
+                  <use href="./images/icons.svg#icon-star"></use>
+                </svg>
+                <p class="hero__since-text">since 1973</p>
+              </div>
+              <button class="hero__btn-top" type="button">
+                <svg class="hero__btn-icon" width="45" height="45">
+                  <use href="./images/icons.svg#icon-arrow-short-border"></use>
+                </svg>
+              </button>
+            </div>
+            <p class="hero__descr">
+              The luxurious hotel in the most beautiful European city with an exclusive restaurant,
+              conference-hall, and art-bar.
+            </p>
           </div>
         </div>
         <div class="hero__img-wrap">
           <picture>
-            <source srcset="./images/hero-1920-min.jpg 1x, ./images/hero-1920@2x-min.jpg 2x" media="(min-width: 1920px">
-            <source srcset="./images/hero-1440-min.jpg 1x, ./images/hero-1440@2x-min.jpg 2x" media="(min-width: 1440px">
-            <source srcset="./images/hero-1024-min.jpg 1x, ./images/hero-1024@2x-min.jpg 2x" media="(min-width: 1024px">
-            <source srcset="./images/hero-375-min.jpg 1x, ./images/hero-375@2x-min.jpg 2x" media="(max-width: 1023px">
-            <img src="./images/hero-375-min.jpg" alt="Art & Congress Hall" class="hero__img">
+            <source
+              srcset="./images/hero-1920-min.jpg 1x, ./images/hero-1920@2x-min.jpg 2x"
+              media="(min-width: 1920px)"
+            />
+            <source
+              srcset="./images/hero-1440-min.jpg 1x, ./images/hero-1440@2x-min.jpg 2x"
+              media="(min-width: 1440px)"
+            />
+            <source
+              srcset="./images/hero-1024-min.jpg 1x, ./images/hero-1024@2x-min.jpg 2x"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./images/hero-375-min.jpg 1x, ./images/hero-375@2x-min.jpg 2x"
+              media="(max-width: 1023px)"
+            />
+            <img src="./images/hero-375-min.jpg" alt="Art & Congress Hall" class="hero__img" />
           </picture>
-          <button class="hero__btn-book" type="button">
-            <svg class="hero__btn-icon" width="120" height="120">
-              <use href="./images/icons.svg#icon-btn"></use>
-            </svg>
-            <span>Book room</span> 
-          </button>
+          <div class="hero__img-btn-wrap">
+            <button class="hero__btn-check" type="button">
+              <span>check in</span>
+              <svg class="hero__btn-icon1024" width="14" height="6">
+                <use href="./images/icons.svg#icon-short-arrow"></use>
+              </svg>
+            </button>
+            <button class="hero__btn-check" type="button">
+              <span>check in</span>
+              <svg class="hero__btn-icon1024" width="14" height="6">
+                <use href="./images/icons.svg#icon-short-arrow"></use>
+              </svg>
+            </button>
+            <button class="hero__btn-book" type="button">
+              <svg class="hero__btn-icon375" width="120" height="120">
+                <use href="./images/icons.svg#icon-btn"></use>
+              </svg>
+              <span>Book room</span>
+            </button>
+          </div>
         </div>
         <div class="hero__bottom">
           <div class="hero__contacts">
             <a class="hero__phone" href="tel:+380322975020">+38 032 297 50 20</a>
             <address class="hero__address">
-              <a href="https://goo.gl/maps/jmXpei2RKzoRLXHq9" target="_blank" rel="noopener noreferrer">
-                8 Lystopadovoho Chynu,Lviv</a>
+              <a
+                href="https://goo.gl/maps/jmXpei2RKzoRLXHq9"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                8 Lystopadovoho Chynu,Lviv</a
+              >
             </address>
           </div>
           <p class="hero__img-descr">Art & Congress hall</p>
