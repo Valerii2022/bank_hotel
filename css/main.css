@@ -757,6 +757,16 @@ body.no-scroll {
 .hero__btn-icon {
   fill: currentColor;
 }
+@media screen and (min-width: 1024px) {
+  .hero__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 @media screen and (max-width: 1023px) {
   .hero__contacts {
     display: none;
