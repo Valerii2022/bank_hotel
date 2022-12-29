@@ -492,6 +492,11 @@ body.no-scroll {
 .hero {
   padding-bottom: 40px;
 }
+@media screen and (min-width: 1024px) {
+  .hero {
+    padding-bottom: 34px;
+  }
+}
 .hero__top {
   margin-bottom: 40px;
 }
@@ -538,6 +543,7 @@ body.no-scroll {
   .hero__title {
     font-size: 120px;
     line-height: 1.22;
+    margin-bottom: 19px;
   }
 }
 .hero__title span {
@@ -548,9 +554,6 @@ body.no-scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
 }
@@ -572,6 +575,14 @@ body.no-scroll {
 @media screen and (max-width: 1023px) {
   .hero__list {
     margin-bottom: 48px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__list {
+    gap: 6px;
   }
 }
 .hero__list::after {
@@ -621,6 +632,7 @@ body.no-scroll {
   .hero__item:not(:last-child)::after {
     font-size: 14px;
     line-height: 1.21;
+    padding-left: 6px;
   }
 }
 .hero__link {
@@ -658,7 +670,12 @@ body.no-scroll {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: start;
+    padding-top: 27px;
   }
+}
+.hero__btn-top {
+  outline: none;
+  cursor: pointer;
 }
 @media screen and (max-width: 1023px) {
   .hero__btn-top {
@@ -674,6 +691,16 @@ body.no-scroll {
   text-align: center;
   color: #fffcf6;
   opacity: 0.8;
+}
+@media screen and (min-width: 1024px) {
+  .hero__descr {
+    font-size: 13px;
+    line-height: 1.77;
+    max-width: 200px;
+    text-align: left;
+    margin-right: 0;
+    margin-left: 80px;
+  }
 }
 .hero__img-wrap {
   position: relative;
@@ -730,6 +757,42 @@ body.no-scroll {
 .hero__btn-icon {
   fill: currentColor;
 }
+@media screen and (max-width: 1023px) {
+  .hero__contacts {
+    display: none;
+  }
+}
+.hero__phone {
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
+  outline: none;
+  font-size: 18px;
+  line-height: 1.22;
+  text-transform: uppercase;
+  color: #fcd043;
+}
+.hero__phone:hover {
+  color: #fcc000;
+}
+.hero__phone:focus {
+  color: #fcc412;
+}
+.hero__address a {
+  -webkit-transition: color 250ms linear;
+  transition: color 250ms linear;
+  outline: none;
+  font-size: 18px;
+  line-height: 1.22;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #fffcf6;
+}
+.hero__address a:hover {
+  color: #fcc000;
+}
+.hero__address a:focus {
+  color: #fcc412;
+}
 .hero__img-descr {
   font-size: 12px;
   line-height: 1.17;
@@ -744,6 +807,14 @@ body.no-scroll {
 @media screen and (min-width: 768px) {
   .hero__img-descr {
     text-align: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .hero__img-descr {
+    font-size: 16px;
+    line-height: 1.19;
+    max-width: 175px;
+    text-align: right;
   }
 }
 

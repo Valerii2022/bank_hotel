@@ -10,7 +10,7 @@
 <path d="M12.3 16.092v-0.13h7.14v0.13z"></path>
 </symbol>
 <symbol id="icon-arrow-short-border" viewBox="0 0 32 32">
-<path fill="none" opacity="0.32" stroke="#fffcf6" style="stroke: var(--color2, #fffcf6)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7111" d="M4.959 4.959l11.041-4.575 11.041 4.574 4.575 11.042-4.574 11.041-11.042 4.575-11.041-4.575-4.575-11.041 4.575-11.041z"></path>
+<path fill="none" opacity="0.32" stroke="#ffffff" style="stroke: var(--color2, #fffcf6)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7111" d="M4.959 4.959l11.041-4.575 11.041 4.574 4.575 11.042-4.574 11.041-11.042 4.575-11.041-4.575-4.575-11.041 4.575-11.041z"></path>
 <path fill="none" stroke="#fcd043" style="stroke: var(--color3, #fcd043)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.7111" d="M19.657 15.085s-1.067 0.305-1.981 1.22c-0.915 0.914-1.676 2.438-1.676 2.438s-0.762-1.524-1.676-2.438c-0.915-0.915-1.981-1.22-1.981-1.22"></path>
 </symbol>
 <symbol id="icon-burger" viewBox="0 0 118 32">
