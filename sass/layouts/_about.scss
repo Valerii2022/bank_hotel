@@ -3,14 +3,14 @@
         padding-top: 50px;
         padding-bottom: 70px;
         background-repeat: no-repeat;
-        background-position: 50px 0, top left, 250px 0;
+        background-position: top right, top left, 274px 0;
         background-image: url('../images/about-bg-top375.png'), url('../images/about-bg-left375.png'), url('../images/about-bg-right375.png');
         max-width: 375px;
         margin-left: auto;
         margin-right: auto;
         
         @include mobile-375{
-            background-position: top right, top left, 274px 0;
+            background-position: top right, -20px 0, 254px 0;
         }
     }
 
