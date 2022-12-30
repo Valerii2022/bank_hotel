@@ -1,0 +1,80 @@
+.about {
+    &__inner{
+        padding-top: 50px;
+        padding-bottom: 70px;
+        background-repeat: no-repeat;
+        background-position: 50px 0, top left, 250px 0;
+        background-image: url('../images/about-bg-top375.png'), url('../images/about-bg-left375.png'), url('../images/about-bg-right375.png');
+        max-width: 375px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        @include mobile-375{
+            background-position: top right, top left, 274px 0;
+        }
+    }
+
+    &__title {
+        margin-bottom: 70px;
+        max-width: 195px;
+        font-family: 'Miracle';
+        font-size: 60px;
+        line-height: 1;
+        text-align: right;
+        text-transform: uppercase;
+        
+        color: getColor("secondary");
+    }
+
+    &__pr-img-wrap{
+        margin-bottom: 70px;
+
+        @include mobile-375{
+            width: 355px;
+            height: 355px;
+        }
+    }
+    
+    &__img-primary {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    &__sub-wrap {}
+    
+    &__subtitle {
+        margin-bottom: 20px;
+        font-family: 'Miracle';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1;
+        text-transform: capitalize;
+    }
+    
+    &__text {
+        position: relative;
+        max-width: 265px;
+        font-size: 13px;
+        line-height: 1.77;
+        opacity: 0.8;
+
+        @include mobile-375{
+            min-width: 293px;
+        }
+    }
+
+    &__text::before{
+        content: '';
+        width: 85px;
+        height: 85px;
+        display: block;
+        position: absolute;
+        top: -69px;
+        right: -50px;
+        background-image: url('../../images/label.png');
+    }
+    
+    &__sec-img-wrap {}
+}
+
